@@ -1,0 +1,501 @@
+student_id,year,branch,cgpa,company,package_lpa,placement_type,placed,skills,backlogs
+1,2023,IT,7.72,TCS,28.86,On-Campus,False,"Power BI, DSA, Java",0
+2,2024,IT,6.9,Infosys,22.68,Off-Campus,True,"Communication, AWS, Excel, DSA",0
+3,2021,CSE,7.61,Microsoft,24.88,Off-Campus,True,"Python, Java, React",0
+4,2023,Mechanical,9.43,Amazon,31.19,On-Campus,True,"React, Python, Communication, AWS, SQL",1
+5,2023,ECE,7.72,Amazon,12.3,Off-Campus,True,"Communication, Excel, DSA, SQL, ML",0
+6,2024,CSE,7.15,Amazon,41.86,Off-Campus,False,"Excel, Power BI, SQL",0
+7,2021,ECE,8.22,Infosys,41.03,Off-Campus,True,"React, Python, DSA",0
+8,2021,EEE,6.84,TCS,28.54,On-Campus,True,"DSA, SQL, Excel, Python, AWS",0
+9,2023,ECE,6.27,Wipro,11.18,On-Campus,True,"Java, Python, ML, React, Communication",0
+10,2022,Mechanical,6.45,Deloitte,29.69,Off-Campus,True,"Power BI, Communication, DSA",0
+11,2023,EEE,6.45,Accenture,6.28,On-Campus,False,"Communication, AWS, Java, ML, SQL",0
+12,2023,ECE,6.53,Deloitte,4.68,Off-Campus,True,"Power BI, React, Python, Java",0
+13,2023,EEE,6.49,Wipro,13.42,Off-Campus,True,"React, Communication, Java, AWS",1
+14,2023,ECE,8.24,Accenture,21.31,Off-Campus,False,"Communication, DSA, SQL",1
+15,2024,Mechanical,6.64,Infosys,36.93,Off-Campus,True,"Java, AWS, ML, Python, DSA",0
+16,2021,ECE,7.21,Wipro,31.5,Off-Campus,True,"Python, React, ML, AWS",0
+17,2024,ECE,9.14,Amazon,32.09,On-Campus,True,"Communication, Java, Excel",0
+18,2024,ECE,7.66,Microsoft,19.88,Off-Campus,False,"Python, Java",1
+19,2024,CSE,8.34,Google,16.82,On-Campus,True,"AWS, Java, Communication, Power BI, ML",0
+20,2023,CSE,6.6,Deloitte,17.78,On-Campus,True,"AWS, Excel, SQL, ML, React",0
+21,2022,CSE,6.67,TCS,41.52,Off-Campus,False,"Excel, DSA, ML, Java",0
+22,2021,Mechanical,6.14,TCS,5.04,Off-Campus,True,"SQL, DSA, Java",0
+23,2022,EEE,6.59,Infosys,36.88,On-Campus,False,"Excel, AWS, SQL, Communication, DSA",0
+24,2024,IT,6.98,Accenture,25.78,On-Campus,True,"AWS, SQL, Communication, Java, Python",0
+25,2024,ECE,6.62,TCS,20.39,On-Campus,True,"Python, Power BI",0
+26,2022,ECE,6.31,Amazon,31.42,Off-Campus,True,"SQL, React, Power BI",0
+27,2022,Mechanical,6.42,Deloitte,22.24,On-Campus,False,"SQL, Python",0
+28,2022,ECE,7.61,Wipro,37.13,Off-Campus,True,"Python, React",0
+29,2024,CSE,6.72,Amazon,38.18,Off-Campus,False,"DSA, SQL, Excel, React, Communication",0
+30,2024,IT,7.27,Infosys,19.74,Off-Campus,False,"ML, Python, React, Communication, Excel",0
+31,2021,Civil,7.76,Amazon,14.16,On-Campus,True,"SQL, React, AWS",0
+32,2021,ECE,8.42,Wipro,26.31,Off-Campus,False,"ML, React",0
+33,2024,CSE,6.14,Microsoft,38.63,Off-Campus,True,"Power BI, Communication",1
+34,2022,Civil,8.8,Infosys,11.61,Off-Campus,True,"SQL, AWS, Communication",0
+35,2022,IT,8.2,Microsoft,27.48,Off-Campus,True,"DSA, Python, SQL, Excel",0
+36,2021,Civil,6.29,Google,27.82,Off-Campus,False,"ML, AWS, Communication",0
+37,2024,CSE,9.06,Microsoft,31.72,On-Campus,True,"DSA, ML, Java",0
+38,2021,EEE,9.22,Google,8.57,Off-Campus,True,"Excel, SQL, Communication",0
+39,2021,EEE,6.21,Google,31.06,Off-Campus,True,"React, SQL, Java, Python, Excel",0
+40,2023,Civil,6.97,Microsoft,38.5,On-Campus,True,"Communication, Python, React",0
+41,2023,Mechanical,8.82,Infosys,10.42,Off-Campus,True,"Communication, Power BI, Java, DSA",1
+42,2023,Civil,8.62,Accenture,12.65,On-Campus,False,"Power BI, Python",0
+43,2022,ECE,6.65,Wipro,40.9,Off-Campus,False,"Power BI, SQL, AWS, React",1
+44,2024,ECE,6.73,Amazon,10.47,On-Campus,True,"AWS, Python",1
+45,2024,EEE,7.3,Amazon,36.39,On-Campus,False,"Java, SQL, Power BI, ML",0
+46,2024,Mechanical,7.7,Wipro,22.45,Off-Campus,True,"SQL, Power BI, Communication, Java, DSA",1
+47,2024,CSE,8.16,Deloitte,13.02,Off-Campus,False,"Java, DSA, Communication",0
+48,2023,ECE,7.29,Deloitte,37.02,Off-Campus,True,"Excel, ML",2
+49,2022,EEE,7.62,Google,20.64,On-Campus,True,"Python, Java, AWS, React",0
+50,2022,IT,8.62,Google,23.32,On-Campus,True,"AWS, Java, Excel, ML, React",0
+51,2023,EEE,6.13,Infosys,17.33,On-Campus,False,"ML, Excel, DSA, Java, AWS",0
+52,2022,ECE,6.88,TCS,26.33,Off-Campus,True,"AWS, Communication",0
+53,2023,ECE,8.5,Microsoft,9.8,On-Campus,True,"ML, DSA, Excel, Power BI, SQL",0
+54,2024,EEE,9.13,Google,18.56,On-Campus,True,"Java, Communication, Python, AWS",0
+55,2023,CSE,7.79,Amazon,40.82,Off-Campus,True,"AWS, React, Java, Excel, ML",0
+56,2024,Civil,7.86,Infosys,13.44,On-Campus,True,"Python, Excel",0
+57,2024,ECE,6.38,Microsoft,28.78,On-Campus,True,"ML, Java, DSA, SQL, AWS",0
+58,2021,EEE,7.57,Infosys,16.02,Off-Campus,False,"Java, Power BI, Excel",0
+59,2023,EEE,7.86,Microsoft,33.28,On-Campus,True,"AWS, Python, Power BI",2
+60,2021,Mechanical,6.85,Microsoft,8.54,Off-Campus,True,"Python, Communication, React, Excel, Java",1
+61,2023,Civil,6.94,Wipro,40.84,Off-Campus,True,"SQL, Excel, ML, DSA, Python",2
+62,2023,IT,7.32,Google,20.97,Off-Campus,False,"ML, DSA",0
+63,2021,CSE,6.07,Accenture,12.59,Off-Campus,False,"Communication, AWS, Power BI, ML",0
+64,2021,IT,7.13,Infosys,6.33,Off-Campus,True,"Communication, React, DSA, SQL, AWS",0
+65,2023,Civil,6.74,Accenture,10.04,On-Campus,True,"Communication, Excel",1
+66,2022,Civil,7.15,Infosys,23.51,On-Campus,True,"React, AWS, Java, SQL, Communication",0
+67,2024,Civil,6.42,Wipro,16.47,Off-Campus,True,"Communication, Power BI, AWS",0
+68,2021,IT,9.12,Amazon,35.41,Off-Campus,False,"Java, Excel, ML, Communication, DSA",0
+69,2024,Civil,8.08,Accenture,20.09,On-Campus,True,"ML, Java, Python, SQL",2
+70,2022,EEE,8.38,Amazon,13.08,Off-Campus,True,"React, DSA",0
+71,2022,IT,8.76,Deloitte,27.26,Off-Campus,True,"Communication, SQL, Java, Python",0
+72,2022,Civil,7.74,Google,30.71,Off-Campus,False,"SQL, Java, DSA, React, Excel",0
+73,2021,EEE,6.3,Google,9.93,On-Campus,True,"Power BI, DSA",0
+74,2022,Mechanical,7.88,TCS,9.95,On-Campus,True,"Power BI, Communication, AWS, Java",0
+75,2021,Civil,8.05,Wipro,4.91,Off-Campus,True,"Python, DSA, SQL, Communication, AWS",0
+76,2022,IT,8.61,Amazon,31.85,Off-Campus,False,"SQL, Python, Power BI",0
+77,2024,ECE,7.51,Microsoft,29.06,On-Campus,True,"Python, Excel, ML",1
+78,2024,Civil,6.45,Infosys,21.77,On-Campus,True,"Communication, DSA, SQL, Python",0
+79,2023,ECE,6.99,Google,36.0,Off-Campus,True,"AWS, Communication, React, ML",1
+80,2024,EEE,7.27,Accenture,34.52,Off-Campus,True,"DSA, React, Communication",1
+81,2023,Mechanical,8.26,Infosys,26.04,On-Campus,True,"Python, React, AWS, DSA, Excel",0
+82,2024,CSE,8.0,Infosys,36.93,On-Campus,True,"AWS, Power BI, React",0
+83,2021,Mechanical,7.25,TCS,11.42,On-Campus,True,"SQL, AWS, Power BI, DSA, ML",0
+84,2024,Civil,9.45,Amazon,7.81,Off-Campus,True,"Java, Communication, Power BI, ML, SQL",1
+85,2023,ECE,8.12,Google,13.89,On-Campus,True,"React, AWS, Python, Power BI, Excel",0
+86,2023,ECE,6.83,Infosys,5.7,Off-Campus,False,"ML, SQL, Power BI, Communication",0
+87,2022,IT,6.36,Google,23.95,On-Campus,True,"Communication, Excel, DSA",0
+88,2021,ECE,6.54,Microsoft,39.56,On-Campus,False,"ML, Excel, Power BI",0
+89,2024,IT,6.86,TCS,5.01,On-Campus,True,"SQL, Power BI, Excel, Python, Java",0
+90,2022,EEE,6.56,Microsoft,8.2,On-Campus,True,"SQL, Power BI, Java, Excel, ML",0
+91,2024,CSE,6.65,Google,20.91,Off-Campus,True,"AWS, Excel, DSA, React",0
+92,2024,Civil,7.0,Deloitte,39.45,Off-Campus,True,"React, SQL, Java",0
+93,2022,IT,6.61,Accenture,15.67,On-Campus,True,"Communication, React",0
+94,2022,CSE,9.14,Google,23.03,Off-Campus,True,"AWS, ML, Power BI, Excel, DSA",0
+95,2022,ECE,6.28,Amazon,5.1,On-Campus,True,"Python, React, DSA",0
+96,2022,ECE,7.84,Infosys,9.21,On-Campus,False,"React, ML",0
+97,2022,CSE,7.44,Infosys,41.49,On-Campus,True,"ML, DSA",1
+98,2024,ECE,9.44,Microsoft,40.66,On-Campus,False,"Java, Excel, AWS, Power BI",0
+99,2022,EEE,6.39,Accenture,3.69,Off-Campus,True,"Communication, React",0
+100,2021,EEE,7.39,TCS,40.14,On-Campus,True,"AWS, ML, DSA, Power BI, Java",0
+101,2023,CSE,9.39,Deloitte,28.11,On-Campus,True,"Communication, React, Python, Java",0
+102,2022,IT,9.03,Wipro,36.91,Off-Campus,True,"AWS, Java, Power BI, Communication, DSA",0
+103,2022,IT,8.86,Accenture,21.01,On-Campus,True,"Communication, Python",0
+104,2024,CSE,6.9,Infosys,23.35,On-Campus,True,"Communication, Excel, DSA, AWS, Python",1
+105,2022,IT,6.6,Amazon,22.32,On-Campus,True,"SQL, Python, Excel",0
+106,2022,IT,8.34,Accenture,29.17,Off-Campus,True,"AWS, React, Java",0
+107,2022,EEE,9.25,Microsoft,8.88,On-Campus,True,"Java, DSA, AWS, ML",0
+108,2024,IT,7.95,Microsoft,4.65,Off-Campus,False,"Python, DSA, ML",0
+109,2022,Mechanical,8.0,Wipro,15.36,On-Campus,False,"DSA, SQL, AWS, Python",0
+110,2023,Civil,6.98,Amazon,30.63,On-Campus,True,"Java, Python, AWS",0
+111,2024,ECE,8.69,TCS,11.27,Off-Campus,False,"React, AWS, ML, SQL, DSA",0
+112,2023,Mechanical,6.65,Accenture,29.43,On-Campus,True,"ML, Communication, React",0
+113,2024,IT,7.13,Amazon,40.84,On-Campus,True,"Communication, Java, Python, SQL",0
+114,2022,EEE,7.49,TCS,7.12,Off-Campus,False,"ML, DSA",0
+115,2023,CSE,7.78,Amazon,29.4,Off-Campus,True,"Power BI, React",0
+116,2024,IT,6.85,Amazon,20.58,Off-Campus,True,"Python, Power BI, Communication, DSA",0
+117,2021,EEE,6.4,Google,36.92,Off-Campus,True,"SQL, Java",2
+118,2022,Civil,8.14,Microsoft,10.32,Off-Campus,True,"DSA, Communication",0
+119,2024,IT,7.01,Accenture,30.17,On-Campus,True,"Power BI, Excel, Java",0
+120,2021,CSE,8.03,Amazon,35.77,Off-Campus,False,"ML, DSA, React, Excel, SQL",0
+121,2024,EEE,6.54,Accenture,39.87,On-Campus,True,"React, AWS",1
+122,2021,EEE,7.68,Wipro,29.81,On-Campus,True,"React, AWS, Java, DSA, SQL",1
+123,2022,EEE,7.86,Amazon,22.64,On-Campus,False,"SQL, React",0
+124,2023,Civil,6.18,Infosys,27.29,Off-Campus,True,"Python, Communication, SQL, AWS, React",2
+125,2021,IT,7.18,Microsoft,36.95,Off-Campus,True,"Java, DSA, Power BI, Communication",0
+126,2024,Civil,6.47,Infosys,25.47,On-Campus,True,"ML, Excel, Java, React",0
+127,2022,ECE,6.22,Accenture,4.67,Off-Campus,True,"DSA, Java, React, Excel",1
+128,2021,ECE,9.46,Accenture,39.34,Off-Campus,False,"Power BI, SQL, Communication, Python, ML",1
+129,2024,IT,7.13,Microsoft,30.05,Off-Campus,True,"Java, DSA, Communication, React, Python",0
+130,2024,Civil,8.83,Accenture,29.55,Off-Campus,False,"DSA, React, Communication, AWS",0
+131,2024,CSE,6.89,Infosys,11.8,On-Campus,True,"React, Excel, ML",0
+132,2021,EEE,8.39,Amazon,28.87,On-Campus,False,"ML, Excel, SQL, DSA, AWS",0
+133,2021,EEE,8.66,Amazon,18.66,Off-Campus,True,"ML, DSA",1
+134,2021,IT,8.08,Google,28.57,On-Campus,False,"DSA, Communication, SQL",0
+135,2023,ECE,7.65,Wipro,7.6,Off-Campus,True,"React, Power BI, DSA, SQL",0
+136,2021,ECE,7.44,Accenture,28.83,Off-Campus,False,"DSA, React",0
+137,2021,EEE,7.22,Infosys,41.98,On-Campus,True,"Python, ML",0
+138,2021,IT,9.25,Accenture,5.36,On-Campus,True,"React, Java",0
+139,2023,Civil,8.91,Accenture,41.12,On-Campus,False,"Python, Power BI, Communication",0
+140,2021,ECE,9.38,TCS,19.17,Off-Campus,True,"Power BI, Communication, Java, ML",2
+141,2024,Civil,6.44,Google,37.02,On-Campus,False,"AWS, Power BI, ML, SQL, Excel",1
+142,2021,ECE,8.56,Infosys,33.62,Off-Campus,True,"React, SQL",0
+143,2024,ECE,9.28,Infosys,25.33,On-Campus,True,"Excel, Java, AWS, Power BI, ML",1
+144,2024,Mechanical,6.63,Accenture,31.93,On-Campus,True,"Communication, AWS",1
+145,2024,ECE,6.23,Google,37.32,Off-Campus,True,"ML, Power BI",1
+146,2023,CSE,8.59,Amazon,19.06,Off-Campus,True,"DSA, Python, Power BI",0
+147,2023,IT,8.01,Infosys,16.09,Off-Campus,True,"Java, Communication",0
+148,2023,IT,8.95,Amazon,29.2,Off-Campus,True,"Java, ML",0
+149,2021,Civil,6.49,Google,34.6,Off-Campus,True,"SQL, DSA",0
+150,2024,ECE,8.78,Amazon,32.85,Off-Campus,True,"Java, Power BI, Python, SQL, DSA",0
+151,2023,CSE,6.71,Microsoft,34.22,Off-Campus,True,"Python, React, Excel, Communication",0
+152,2023,Civil,6.57,TCS,20.27,Off-Campus,True,"AWS, Java, Communication, Power BI, ML",0
+153,2021,Mechanical,6.57,Deloitte,34.99,On-Campus,True,"DSA, Excel, Power BI",0
+154,2023,Civil,8.85,Infosys,8.13,Off-Campus,True,"Communication, AWS, Python",0
+155,2021,Civil,8.33,Wipro,24.46,Off-Campus,False,"AWS, ML, DSA",0
+156,2022,ECE,7.83,TCS,3.72,On-Campus,False,"Power BI, DSA, SQL, Communication",2
+157,2023,Mechanical,7.26,Deloitte,16.0,Off-Campus,True,"SQL, Excel, Python, Power BI, Communication",2
+158,2022,Civil,9.07,Amazon,17.61,On-Campus,True,"Power BI, React, Excel, Communication",1
+159,2021,CSE,7.37,Infosys,18.75,On-Campus,False,"Python, Power BI, Java, SQL",2
+160,2024,CSE,8.86,Amazon,30.28,Off-Campus,True,"React, Excel",0
+161,2023,IT,7.54,Microsoft,18.46,On-Campus,True,"Python, Java",2
+162,2021,Mechanical,7.32,Google,20.77,Off-Campus,True,"ML, Communication, DSA, Excel",0
+163,2024,Mechanical,7.62,Infosys,12.65,On-Campus,False,"Excel, Python, Java",0
+164,2024,IT,7.05,Deloitte,17.87,On-Campus,True,"Python, Communication",0
+165,2022,Civil,8.62,Deloitte,12.25,On-Campus,True,"React, Power BI",0
+166,2021,Mechanical,7.76,Microsoft,6.32,Off-Campus,False,"SQL, ML",0
+167,2024,CSE,6.81,Microsoft,26.73,Off-Campus,False,"Java, SQL",0
+168,2023,CSE,9.15,Accenture,29.23,On-Campus,True,"ML, React, Excel",1
+169,2023,ECE,7.34,Infosys,27.35,On-Campus,True,"SQL, Java, AWS",0
+170,2022,Mechanical,7.9,Amazon,21.34,Off-Campus,False,"Communication, SQL, Python, DSA, AWS",0
+171,2024,Civil,9.17,Wipro,18.12,Off-Campus,True,"Excel, Java",1
+172,2021,IT,8.18,Deloitte,36.74,On-Campus,True,"React, Communication, Excel, DSA",0
+173,2023,IT,6.41,Deloitte,23.48,On-Campus,True,"React, SQL",0
+174,2024,Civil,9.29,Microsoft,21.95,Off-Campus,False,"ML, SQL",0
+175,2024,EEE,8.2,TCS,4.49,Off-Campus,True,"Python, Communication, React",0
+176,2022,ECE,7.17,Microsoft,16.64,Off-Campus,False,"DSA, AWS, Communication, Excel",0
+177,2023,IT,6.49,Wipro,18.14,Off-Campus,False,"ML, DSA, Power BI, SQL, Communication",1
+178,2023,Mechanical,8.78,Amazon,18.85,Off-Campus,True,"Java, Excel, Communication, Python, AWS",0
+179,2021,ECE,8.17,Amazon,25.84,On-Campus,True,"DSA, Java",0
+180,2023,Mechanical,7.87,TCS,24.04,Off-Campus,True,"Communication, React",1
+181,2021,CSE,9.13,Deloitte,26.9,On-Campus,True,"Java, Communication, SQL, DSA",0
+182,2023,ECE,8.76,Microsoft,32.95,Off-Campus,True,"Excel, React, ML, SQL, Python",0
+183,2022,IT,6.53,Accenture,34.8,On-Campus,True,"DSA, ML",0
+184,2023,ECE,7.09,Amazon,31.15,Off-Campus,True,"React, DSA, Power BI, ML",0
+185,2021,ECE,6.87,Wipro,40.29,Off-Campus,False,"SQL, DSA, ML, React",0
+186,2021,ECE,8.6,Infosys,4.2,On-Campus,True,"Python, SQL, React, Java, Excel",0
+187,2022,EEE,6.12,Google,11.04,On-Campus,True,"Python, SQL, React, Java",0
+188,2023,ECE,7.99,Google,3.79,Off-Campus,True,"AWS, ML",2
+189,2023,Mechanical,8.67,Google,28.43,Off-Campus,True,"Excel, Java, ML",0
+190,2022,CSE,9.07,Accenture,38.07,Off-Campus,True,"React, Java, ML, SQL, AWS",0
+191,2023,Civil,7.2,Deloitte,12.87,Off-Campus,True,"DSA, AWS, Excel",0
+192,2023,ECE,8.87,Microsoft,39.19,Off-Campus,True,"AWS, SQL",0
+193,2021,IT,6.39,TCS,5.82,On-Campus,True,"Communication, Java",0
+194,2023,ECE,8.96,Accenture,39.48,On-Campus,True,"React, AWS, SQL",0
+195,2023,IT,6.45,Accenture,17.04,Off-Campus,True,"Communication, Java, Excel",1
+196,2022,Mechanical,7.39,Amazon,7.4,On-Campus,True,"SQL, Java, Python, AWS, DSA",0
+197,2022,IT,8.79,Infosys,22.21,On-Campus,False,"Java, Python",0
+198,2024,Civil,6.52,Accenture,13.39,On-Campus,True,"ML, AWS, React, Python",0
+199,2021,CSE,6.8,Wipro,14.47,Off-Campus,True,"SQL, Excel",0
+200,2023,IT,8.53,Infosys,15.33,On-Campus,True,"Python, Java, Communication",0
+201,2023,IT,8.52,Wipro,34.42,Off-Campus,True,"Python, SQL, ML",0
+202,2024,CSE,8.24,Deloitte,24.26,On-Campus,True,"SQL, React, Communication, AWS, DSA",0
+203,2023,Civil,8.43,Microsoft,15.49,Off-Campus,True,"Python, Communication",0
+204,2021,ECE,7.9,Google,27.0,On-Campus,True,"Excel, Communication, React, Java, DSA",1
+205,2024,IT,6.88,Accenture,31.07,Off-Campus,True,"AWS, Communication, ML",2
+206,2021,CSE,7.21,Microsoft,14.0,Off-Campus,True,"Power BI, DSA, Python, React, ML",1
+207,2024,Mechanical,6.64,Deloitte,19.42,On-Campus,True,"AWS, DSA",1
+208,2024,CSE,9.18,TCS,8.19,Off-Campus,True,"Java, SQL, Power BI, AWS, React",0
+209,2022,Mechanical,8.04,TCS,10.47,Off-Campus,False,"Python, Power BI, Communication, Java",2
+210,2021,Civil,7.4,Deloitte,29.72,Off-Campus,True,"Python, Java, Power BI",0
+211,2023,ECE,7.62,Wipro,10.49,Off-Campus,True,"Power BI, DSA, Python, ML, SQL",2
+212,2023,CSE,9.32,Amazon,23.72,Off-Campus,True,"AWS, React, Excel, SQL",2
+213,2021,EEE,6.54,Amazon,30.8,Off-Campus,True,"DSA, Power BI, React, Communication",0
+214,2023,IT,8.05,Wipro,7.61,Off-Campus,True,"Python, Communication, React, AWS, SQL",2
+215,2023,Civil,7.77,TCS,25.34,Off-Campus,True,"DSA, SQL, Communication, Python",0
+216,2021,CSE,8.14,TCS,13.38,On-Campus,True,"Java, Power BI, DSA, Excel, Python",0
+217,2024,IT,6.06,Accenture,40.57,On-Campus,True,"Communication, Excel, Python, Power BI",0
+218,2021,CSE,9.05,TCS,22.12,Off-Campus,True,"Communication, Excel, AWS",0
+219,2024,Mechanical,9.26,Microsoft,34.53,Off-Campus,True,"Java, AWS, SQL, Communication",0
+220,2023,CSE,7.98,TCS,24.68,On-Campus,True,"Python, Power BI",0
+221,2023,EEE,8.44,Infosys,5.17,On-Campus,True,"Excel, ML, Python, Java",2
+222,2023,CSE,9.23,Accenture,27.88,On-Campus,True,"AWS, ML, Excel, DSA, Communication",0
+223,2022,CSE,8.48,Google,40.13,Off-Campus,False,"Java, DSA, Communication",1
+224,2024,EEE,6.53,TCS,26.66,On-Campus,True,"DSA, AWS, Python",1
+225,2022,Civil,8.02,Wipro,35.04,Off-Campus,True,"SQL, DSA, AWS, Excel",2
+226,2022,CSE,8.12,Google,37.54,Off-Campus,True,"Power BI, SQL, Communication, Python, Java",2
+227,2021,EEE,7.48,Microsoft,12.28,On-Campus,False,"DSA, AWS, SQL, Power BI, ML",0
+228,2022,IT,8.58,Wipro,11.66,Off-Campus,True,"SQL, Excel, ML",2
+229,2021,Mechanical,9.27,Google,27.02,Off-Campus,True,"SQL, DSA, Python, React",1
+230,2021,Mechanical,9.24,Wipro,19.32,Off-Campus,True,"SQL, Communication, Java, AWS",0
+231,2022,CSE,7.58,Microsoft,35.83,Off-Campus,True,"Python, AWS, Excel, Java, Power BI",0
+232,2024,Civil,6.4,Accenture,38.15,On-Campus,True,"React, AWS",0
+233,2024,Civil,9.45,Infosys,17.11,On-Campus,True,"Communication, DSA",0
+234,2024,IT,8.94,Microsoft,12.62,Off-Campus,False,"DSA, Excel",0
+235,2024,CSE,6.44,Microsoft,33.55,Off-Campus,True,"AWS, SQL, Power BI, DSA, React",0
+236,2024,Mechanical,9.22,Wipro,14.08,On-Campus,True,"React, Python, DSA",0
+237,2022,Civil,9.04,Accenture,35.17,Off-Campus,False,"Communication, Excel, Power BI, DSA, AWS",0
+238,2022,CSE,7.82,Deloitte,19.81,On-Campus,True,"Java, Power BI, ML",1
+239,2023,Civil,8.07,Amazon,29.2,Off-Campus,True,"ML, Power BI, SQL, Python",0
+240,2024,EEE,7.4,TCS,7.18,Off-Campus,True,"AWS, Communication, SQL, Python, ML",0
+241,2022,Civil,6.19,TCS,27.52,On-Campus,True,"AWS, ML",0
+242,2023,Mechanical,7.17,Infosys,20.89,On-Campus,True,"Excel, DSA, SQL",0
+243,2024,ECE,8.81,Infosys,26.08,On-Campus,False,"Excel, ML, AWS, DSA, Java",1
+244,2021,IT,6.02,TCS,9.97,On-Campus,True,"AWS, Java, Power BI, ML, Excel",0
+245,2023,IT,7.17,Amazon,31.87,Off-Campus,True,"DSA, ML, Java",0
+246,2022,Mechanical,7.39,TCS,36.72,On-Campus,True,"Excel, Communication",0
+247,2021,Civil,7.88,Deloitte,11.84,Off-Campus,False,"AWS, Java, DSA",0
+248,2021,CSE,9.22,Amazon,7.19,On-Campus,False,"AWS, Communication, SQL",1
+249,2021,Civil,7.21,Infosys,4.41,On-Campus,False,"DSA, Excel, Python, ML, Power BI",0
+250,2023,Mechanical,7.21,Google,28.22,Off-Campus,True,"Power BI, AWS, Excel",0
+251,2022,IT,8.58,Wipro,26.87,On-Campus,True,"React, DSA, Communication",0
+252,2021,Civil,7.58,Deloitte,24.55,On-Campus,True,"Excel, ML, AWS",0
+253,2024,IT,6.79,Deloitte,12.43,On-Campus,True,"ML, Power BI",0
+254,2021,CSE,7.58,Accenture,18.55,On-Campus,True,"ML, SQL, Python, React",0
+255,2021,IT,6.49,Infosys,26.39,Off-Campus,True,"Communication, Power BI, Java, Excel, Python",0
+256,2023,IT,6.62,Infosys,22.63,Off-Campus,True,"Python, Excel, ML, Communication, Power BI",0
+257,2023,ECE,7.74,Microsoft,41.53,On-Campus,True,"Excel, DSA, AWS, Power BI, Java",0
+258,2022,ECE,7.47,Deloitte,8.75,On-Campus,True,"Power BI, ML, Python, Java",1
+259,2024,EEE,9.2,Microsoft,30.26,On-Campus,True,"DSA, Java, Python",2
+260,2023,ECE,7.27,Microsoft,19.07,Off-Campus,True,"Java, Excel, Python, Communication, AWS",0
+261,2021,IT,8.03,Wipro,19.99,Off-Campus,True,"AWS, Python, Communication, SQL",1
+262,2022,Mechanical,8.21,Microsoft,31.13,Off-Campus,True,"DSA, AWS",0
+263,2021,IT,6.05,Amazon,30.16,Off-Campus,True,"React, Python, Power BI",0
+264,2021,Mechanical,8.32,TCS,41.66,On-Campus,True,"Excel, ML, Communication, React, Python",1
+265,2023,Mechanical,6.62,Google,8.44,On-Campus,True,"Java, SQL, Python, ML, Communication",1
+266,2022,ECE,9.36,Infosys,7.51,On-Campus,True,"SQL, Power BI, DSA, Java, Communication",2
+267,2024,Civil,6.52,Amazon,31.39,Off-Campus,False,"Java, SQL",0
+268,2024,CSE,7.45,Google,25.77,On-Campus,True,"SQL, Excel, ML",0
+269,2023,ECE,6.3,Deloitte,14.06,Off-Campus,True,"Communication, AWS, Power BI, Java, Excel",1
+270,2023,ECE,9.49,Deloitte,6.56,Off-Campus,True,"ML, SQL, Power BI",0
+271,2022,Civil,7.76,Deloitte,6.8,On-Campus,True,"Communication, Python, ML, SQL",0
+272,2024,CSE,8.08,Amazon,37.93,On-Campus,True,"DSA, SQL, Python",0
+273,2024,IT,6.23,Amazon,10.89,On-Campus,True,"Communication, SQL, Python, Java, AWS",0
+274,2024,EEE,8.62,Infosys,15.95,Off-Campus,False,"Java, ML, Python, Power BI, Communication",0
+275,2021,EEE,6.73,TCS,12.23,Off-Campus,True,"SQL, Power BI, Excel, Java",0
+276,2024,IT,9.14,Accenture,17.17,On-Campus,False,"Python, Java, ML, AWS, DSA",1
+277,2021,ECE,6.72,Microsoft,6.17,On-Campus,True,"Excel, AWS, React, ML, Java",0
+278,2022,CSE,6.67,Deloitte,23.48,Off-Campus,True,"DSA, Power BI, Python, AWS, Java",0
+279,2021,ECE,6.13,Wipro,6.1,On-Campus,False,"ML, React, SQL",0
+280,2022,Mechanical,7.65,TCS,34.31,Off-Campus,True,"SQL, AWS",0
+281,2024,ECE,7.98,Wipro,12.5,Off-Campus,True,"Java, React, Python",0
+282,2024,ECE,6.23,Infosys,24.29,On-Campus,True,"AWS, SQL, Java",0
+283,2022,IT,8.71,Infosys,37.38,On-Campus,True,"Power BI, SQL, Excel, React",1
+284,2023,IT,7.59,Infosys,28.56,On-Campus,True,"SQL, AWS, Python, Excel, React",0
+285,2022,IT,7.84,Google,24.02,On-Campus,True,"Excel, DSA, AWS, Java, Communication",2
+286,2023,EEE,7.54,Wipro,15.99,Off-Campus,True,"Python, React, Power BI, ML, AWS",0
+287,2021,Mechanical,7.4,TCS,16.32,Off-Campus,True,"Power BI, Communication, AWS",0
+288,2021,IT,7.96,Accenture,29.28,Off-Campus,True,"AWS, Communication",0
+289,2021,CSE,6.54,TCS,41.77,On-Campus,True,"Communication, React, Excel",0
+290,2024,EEE,6.64,Amazon,28.98,Off-Campus,True,"React, DSA",1
+291,2021,Civil,9.02,Amazon,24.97,On-Campus,True,"SQL, DSA, Python, ML",0
+292,2023,CSE,9.31,Deloitte,31.63,On-Campus,True,"React, SQL, Power BI",0
+293,2021,CSE,7.31,Accenture,21.41,On-Campus,True,"React, DSA, AWS, Communication",1
+294,2022,IT,6.95,Amazon,5.82,On-Campus,False,"DSA, Java, Python, ML, SQL",2
+295,2022,Civil,8.25,Infosys,25.15,On-Campus,True,"Power BI, ML, Python",1
+296,2024,Civil,7.43,TCS,40.37,On-Campus,True,"React, DSA, SQL, Excel",0
+297,2022,EEE,6.09,Wipro,10.25,Off-Campus,True,"Excel, DSA",1
+298,2023,Civil,6.55,Infosys,30.07,On-Campus,True,"Excel, Java, Communication",0
+299,2021,Mechanical,8.51,Google,11.24,Off-Campus,True,"Communication, SQL, Python, AWS, ML",0
+300,2024,IT,8.31,Amazon,24.13,Off-Campus,False,"DSA, React, Java, Python, AWS",0
+301,2021,Civil,6.09,Infosys,7.22,On-Campus,True,"Java, Communication, React, ML, AWS",0
+302,2021,EEE,6.78,Infosys,20.84,On-Campus,False,"SQL, Power BI, Python, AWS, DSA",0
+303,2023,Mechanical,6.81,Google,32.61,On-Campus,False,"React, Excel, DSA",0
+304,2022,ECE,8.35,Microsoft,16.88,Off-Campus,False,"Communication, DSA",1
+305,2022,ECE,6.07,TCS,29.1,On-Campus,False,"Java, DSA, Communication, ML, Excel",0
+306,2021,Mechanical,6.36,Wipro,34.12,Off-Campus,True,"Power BI, SQL, Python",0
+307,2024,EEE,8.8,Deloitte,39.2,On-Campus,True,"DSA, React, Power BI, SQL",0
+308,2022,Mechanical,6.62,Microsoft,12.53,On-Campus,True,"React, DSA, Power BI, AWS",2
+309,2024,IT,8.28,Amazon,18.87,Off-Campus,True,"React, SQL",0
+310,2022,IT,6.83,Infosys,9.37,Off-Campus,True,"Python, React, SQL",0
+311,2024,ECE,6.35,Accenture,41.71,On-Campus,True,"AWS, Power BI",1
+312,2023,Civil,6.85,Google,39.19,Off-Campus,True,"Excel, Python",1
+313,2024,EEE,8.53,Google,24.29,Off-Campus,True,"DSA, SQL, React, Excel",0
+314,2023,ECE,8.99,Accenture,35.92,Off-Campus,True,"ML, Java, DSA, Communication",0
+315,2023,Civil,8.91,TCS,23.56,Off-Campus,True,"DSA, ML, Communication, Excel",1
+316,2024,Civil,7.39,Microsoft,27.51,Off-Campus,True,"DSA, Communication, AWS, Java, React",0
+317,2023,IT,8.34,Deloitte,6.93,On-Campus,False,"Excel, DSA, AWS, Communication, Python",0
+318,2021,CSE,6.72,TCS,32.58,On-Campus,True,"DSA, Excel, SQL",1
+319,2023,CSE,7.03,Accenture,8.42,Off-Campus,True,"Communication, SQL, Power BI, React, AWS",0
+320,2022,Mechanical,9.14,Infosys,35.3,On-Campus,True,"Power BI, Java",0
+321,2024,IT,6.05,Accenture,33.61,On-Campus,True,"AWS, ML, SQL",0
+322,2021,Civil,6.3,TCS,30.79,Off-Campus,True,"React, Communication, DSA",0
+323,2024,EEE,6.73,Wipro,4.89,On-Campus,True,"Communication, DSA, Power BI",0
+324,2022,CSE,6.09,Google,15.17,Off-Campus,True,"DSA, React, Power BI",1
+325,2022,Civil,6.64,Google,13.63,Off-Campus,True,"Communication, SQL, React, ML",0
+326,2022,CSE,8.04,Amazon,17.37,On-Campus,True,"SQL, Excel",0
+327,2023,CSE,7.47,Amazon,6.87,Off-Campus,True,"Communication, ML, SQL, Java, DSA",0
+328,2023,CSE,9.12,Accenture,39.57,Off-Campus,True,"Java, DSA, Communication, Power BI",0
+329,2024,EEE,8.86,Deloitte,24.82,Off-Campus,True,"ML, AWS",2
+330,2024,IT,7.2,Infosys,15.26,Off-Campus,True,"ML, DSA, SQL, Java",0
+331,2021,EEE,6.91,Wipro,18.78,Off-Campus,False,"DSA, ML, Communication, React, Java",0
+332,2021,ECE,7.33,Microsoft,20.72,On-Campus,True,"Java, DSA, SQL, Python, React",0
+333,2024,Civil,8.07,TCS,26.62,On-Campus,True,"Java, Python, AWS",0
+334,2023,IT,6.94,Deloitte,23.35,Off-Campus,True,"Python, Excel, Java",0
+335,2022,IT,8.18,Infosys,38.9,Off-Campus,True,"React, DSA, Communication",0
+336,2024,IT,7.43,Amazon,22.63,On-Campus,True,"React, Power BI, Excel",2
+337,2021,IT,7.93,Accenture,41.7,Off-Campus,True,"ML, Python",0
+338,2023,EEE,7.53,TCS,36.28,On-Campus,False,"SQL, React",0
+339,2024,IT,7.03,Amazon,11.53,Off-Campus,True,"Power BI, ML, DSA",0
+340,2024,Mechanical,9.32,Accenture,39.33,Off-Campus,True,"ML, Power BI, SQL",1
+341,2023,Civil,8.67,TCS,7.98,Off-Campus,True,"DSA, Java, Excel",0
+342,2024,IT,6.49,Microsoft,34.97,Off-Campus,True,"React, Python, DSA, SQL",0
+343,2023,Civil,9.04,Infosys,18.15,Off-Campus,True,"AWS, DSA",0
+344,2022,Mechanical,7.71,TCS,37.3,Off-Campus,True,"Power BI, Communication",0
+345,2023,Mechanical,9.13,Wipro,36.92,Off-Campus,True,"DSA, SQL, Excel, React",1
+346,2023,Civil,8.8,Deloitte,34.53,On-Campus,True,"React, Java, DSA, Communication, Python",0
+347,2023,CSE,7.49,Google,33.92,On-Campus,True,"DSA, Java, Excel",0
+348,2024,ECE,6.08,Wipro,15.23,On-Campus,False,"AWS, ML, Excel, Power BI, React",1
+349,2024,CSE,6.94,Wipro,6.62,Off-Campus,True,"Java, ML, Communication, React",1
+350,2023,CSE,7.9,Deloitte,19.01,Off-Campus,False,"Java, Python",2
+351,2024,EEE,8.22,Google,10.18,Off-Campus,True,"SQL, DSA, Python, Power BI",1
+352,2021,CSE,6.9,Wipro,30.26,Off-Campus,False,"Power BI, React",0
+353,2021,IT,6.49,TCS,16.82,Off-Campus,True,"DSA, Power BI, Python, Java",0
+354,2024,EEE,8.92,TCS,41.06,Off-Campus,False,"ML, Communication, SQL, React",0
+355,2024,EEE,9.45,TCS,28.18,Off-Campus,False,"React, SQL",0
+356,2023,Mechanical,7.84,Google,35.17,On-Campus,True,"DSA, React, Excel, ML",0
+357,2022,CSE,6.6,Wipro,8.6,Off-Campus,False,"Communication, Power BI",0
+358,2024,Mechanical,6.95,Accenture,36.69,On-Campus,True,"AWS, Python",0
+359,2021,Civil,6.06,Google,39.03,On-Campus,True,"Python, Power BI, SQL, Excel, Java",1
+360,2023,ECE,9.2,TCS,22.25,Off-Campus,True,"Python, ML",0
+361,2024,EEE,6.41,Deloitte,26.84,Off-Campus,True,"Python, Java",2
+362,2021,Civil,8.02,Wipro,32.95,On-Campus,True,"Communication, React, Power BI, SQL, Python",0
+363,2021,Civil,6.96,Wipro,10.23,On-Campus,True,"AWS, React",0
+364,2022,IT,7.94,Amazon,22.85,Off-Campus,True,"AWS, SQL, React, Java, Python",0
+365,2023,ECE,8.28,Amazon,18.85,Off-Campus,True,"DSA, Power BI, AWS",0
+366,2023,Civil,8.9,Microsoft,9.14,On-Campus,False,"AWS, SQL, Python, React",0
+367,2022,Civil,6.72,Accenture,17.65,Off-Campus,True,"Python, Java, Excel",1
+368,2022,ECE,6.04,Accenture,6.12,Off-Campus,True,"SQL, Communication, DSA",0
+369,2023,ECE,6.48,Infosys,4.49,Off-Campus,True,"AWS, Communication, Python, ML",0
+370,2023,Civil,9.15,Accenture,8.7,On-Campus,True,"DSA, Power BI, Python, React, Communication",0
+371,2024,ECE,9.06,Amazon,40.58,On-Campus,True,"Java, React, Communication, SQL",0
+372,2024,Civil,8.09,Google,24.66,On-Campus,True,"React, Communication, Excel",2
+373,2022,Civil,8.1,Accenture,40.68,Off-Campus,True,"DSA, AWS, Power BI, Excel, ML",1
+374,2024,IT,8.33,Amazon,20.15,Off-Campus,False,"DSA, ML, SQL, React, Python",0
+375,2021,CSE,6.61,Microsoft,15.5,On-Campus,True,"ML, Python, DSA, AWS",0
+376,2024,Civil,9.2,Wipro,22.99,On-Campus,True,"React, AWS",0
+377,2024,Mechanical,7.47,Accenture,20.42,On-Campus,True,"Java, AWS, SQL, ML, React",1
+378,2021,EEE,7.34,Microsoft,7.57,Off-Campus,True,"Power BI, Java, AWS",0
+379,2022,CSE,7.82,Wipro,28.17,On-Campus,True,"AWS, Python, SQL, ML",0
+380,2021,CSE,6.16,Deloitte,11.82,On-Campus,True,"Java, Power BI, Communication, AWS",1
+381,2024,CSE,6.58,Deloitte,27.35,Off-Campus,True,"Python, Power BI, React, AWS, SQL",0
+382,2022,IT,8.58,Wipro,28.53,Off-Campus,True,"Communication, SQL, AWS, Java",1
+383,2024,Civil,6.29,Accenture,9.35,Off-Campus,False,"SQL, React, Power BI, ML, Java",0
+384,2021,IT,8.11,Infosys,5.86,On-Campus,False,"AWS, Power BI, Java",0
+385,2021,Civil,6.86,Amazon,33.56,Off-Campus,True,"DSA, Java, Power BI",0
+386,2024,IT,7.36,Google,21.2,Off-Campus,True,"Power BI, Excel, SQL",2
+387,2023,IT,7.01,Google,5.74,On-Campus,True,"Power BI, React, Java",1
+388,2023,EEE,7.24,TCS,41.8,Off-Campus,True,"Java, ML, React, SQL",0
+389,2021,Mechanical,8.52,Wipro,5.72,On-Campus,True,"Excel, ML, AWS, React, Python",0
+390,2021,IT,7.04,Google,30.26,On-Campus,True,"Python, Java, AWS, Power BI",0
+391,2023,EEE,7.98,Accenture,41.37,Off-Campus,True,"Power BI, SQL",2
+392,2023,ECE,7.67,Infosys,12.71,Off-Campus,True,"SQL, React, AWS, Excel, Python",0
+393,2024,Mechanical,8.32,Wipro,8.98,Off-Campus,True,"Communication, Power BI, Java, AWS, SQL",0
+394,2024,IT,9.28,Infosys,8.17,Off-Campus,False,"Communication, DSA, React",0
+395,2023,CSE,8.56,Accenture,15.18,Off-Campus,False,"ML, React, DSA, Python, Power BI",1
+396,2024,ECE,6.75,Google,7.39,Off-Campus,True,"DSA, Java, Python, React",0
+397,2024,ECE,6.11,Google,30.15,On-Campus,True,"SQL, Communication, Python, Java, Power BI",0
+398,2022,EEE,6.92,TCS,5.9,On-Campus,False,"Python, React",0
+399,2024,ECE,8.08,Google,23.11,Off-Campus,True,"Communication, Python, React, Power BI, SQL",1
+400,2021,Mechanical,6.18,Wipro,41.87,On-Campus,False,"SQL, Python, DSA",0
+401,2024,IT,7.74,Accenture,34.84,Off-Campus,True,"Excel, Power BI, Python",0
+402,2024,IT,8.09,Deloitte,27.19,On-Campus,False,"ML, Java, Excel, DSA",2
+403,2023,CSE,7.17,Accenture,15.29,On-Campus,True,"Java, Power BI, ML, React",0
+404,2021,EEE,8.7,Wipro,27.52,On-Campus,False,"Communication, Java",0
+405,2024,CSE,6.37,Wipro,23.79,Off-Campus,False,"Java, React",0
+406,2024,ECE,6.26,TCS,19.9,On-Campus,True,"AWS, ML, Power BI, DSA",1
+407,2022,CSE,8.55,TCS,8.53,Off-Campus,True,"Java, SQL, React, Communication, ML",0
+408,2024,Mechanical,7.73,Google,37.63,On-Campus,False,"Python, ML, Communication, DSA, Java",2
+409,2024,IT,8.41,Microsoft,20.82,On-Campus,True,"DSA, AWS",0
+410,2022,ECE,7.52,Accenture,10.99,On-Campus,False,"Power BI, Java, ML",0
+411,2023,CSE,6.86,Accenture,17.66,On-Campus,True,"Communication, React, AWS, Python, SQL",0
+412,2024,EEE,8.87,Microsoft,19.44,On-Campus,True,"Power BI, Excel",1
+413,2022,Mechanical,8.8,TCS,35.36,Off-Campus,True,"Power BI, Communication, AWS, ML, DSA",0
+414,2021,Mechanical,8.43,Google,31.74,Off-Campus,True,"Power BI, Python, SQL, Java",1
+415,2023,CSE,6.95,Microsoft,33.12,On-Campus,True,"Power BI, Communication, Java, DSA, AWS",0
+416,2021,IT,8.07,Google,3.92,On-Campus,True,"Python, React, Power BI",0
+417,2021,CSE,7.26,Google,19.52,On-Campus,True,"SQL, React, Python",0
+418,2022,ECE,6.32,Google,22.03,On-Campus,True,"SQL, AWS, React, Java, Excel",1
+419,2024,CSE,9.21,Amazon,4.24,Off-Campus,True,"Java, DSA, Power BI, Excel",0
+420,2022,Mechanical,6.48,Wipro,13.5,On-Campus,False,"SQL, Java",0
+421,2022,CSE,9.33,Google,32.77,Off-Campus,False,"React, Java",0
+422,2022,IT,7.56,Amazon,8.78,On-Campus,True,"Python, AWS, React",1
+423,2022,EEE,6.65,TCS,24.11,Off-Campus,False,"Power BI, SQL, AWS, Python",0
+424,2023,Civil,7.9,Microsoft,11.79,On-Campus,True,"Communication, Java, AWS, Power BI, Excel",1
+425,2024,CSE,9.06,Wipro,3.97,On-Campus,True,"Java, React, Power BI, Python",0
+426,2021,IT,8.56,Deloitte,12.79,Off-Campus,False,"AWS, Python, SQL, Communication, ML",0
+427,2021,IT,8.82,Microsoft,41.07,On-Campus,True,"Java, SQL",0
+428,2024,EEE,8.31,Wipro,34.36,On-Campus,True,"Python, Java, Excel",1
+429,2021,Mechanical,8.42,Deloitte,40.44,On-Campus,False,"Power BI, Java, DSA",1
+430,2024,IT,8.97,Microsoft,22.28,Off-Campus,True,"Communication, React",0
+431,2021,IT,6.87,Wipro,7.72,On-Campus,False,"AWS, Power BI, DSA, Communication",0
+432,2022,IT,7.71,Microsoft,24.6,On-Campus,False,"React, SQL, Communication, ML, Power BI",0
+433,2021,IT,6.77,Microsoft,20.99,Off-Campus,True,"SQL, React, Excel, Java",0
+434,2024,ECE,9.46,Deloitte,36.01,Off-Campus,False,"SQL, Communication, DSA, Power BI, Python",0
+435,2024,ECE,9.3,Microsoft,7.28,Off-Campus,True,"AWS, DSA",0
+436,2024,Mechanical,6.14,Microsoft,22.3,On-Campus,True,"React, Python, AWS",0
+437,2024,CSE,8.47,Deloitte,9.28,On-Campus,True,"SQL, Communication, ML, Power BI, Python",0
+438,2024,IT,9.24,TCS,16.0,On-Campus,False,"AWS, ML, Python, Power BI",0
+439,2023,EEE,6.63,Google,31.89,Off-Campus,True,"ML, Python, Excel, Communication, Power BI",0
+440,2023,CSE,7.99,Accenture,21.83,On-Campus,True,"AWS, Power BI, ML",0
+441,2021,EEE,9.2,Infosys,17.97,On-Campus,True,"DSA, Python",0
+442,2024,CSE,6.12,Amazon,18.69,Off-Campus,True,"Power BI, ML",1
+443,2021,Mechanical,8.44,Infosys,21.19,Off-Campus,True,"DSA, Python, Excel",0
+444,2024,IT,7.04,Infosys,33.72,Off-Campus,True,"Python, SQL, Power BI, Java",0
+445,2024,IT,9.24,Wipro,37.85,Off-Campus,True,"React, AWS, SQL, ML",0
+446,2023,Civil,9.4,Google,40.28,Off-Campus,True,"DSA, Excel, Communication, Power BI",0
+447,2023,EEE,9.3,Wipro,33.8,On-Campus,False,"Java, AWS, Excel",0
+448,2022,CSE,7.66,Google,15.64,Off-Campus,True,"SQL, Java",0
+449,2023,CSE,9.02,Deloitte,29.99,On-Campus,True,"Python, Power BI, Communication",2
+450,2022,ECE,8.96,Deloitte,20.35,On-Campus,False,"Power BI, SQL, React",0
+451,2022,Civil,7.12,Accenture,13.3,Off-Campus,True,"Communication, SQL",0
+452,2022,ECE,8.9,Google,35.87,Off-Campus,False,"AWS, Power BI, Communication",0
+453,2022,ECE,6.13,Microsoft,4.98,Off-Campus,True,"Power BI, ML, Java",0
+454,2022,ECE,8.09,TCS,38.22,On-Campus,False,"DSA, ML",0
+455,2021,EEE,6.81,Accenture,21.27,Off-Campus,True,"Power BI, Python",1
+456,2023,EEE,6.42,Accenture,28.03,Off-Campus,True,"Communication, React, AWS, Java, Power BI",0
+457,2022,Mechanical,6.27,Microsoft,28.89,Off-Campus,True,"DSA, ML, Power BI, Java",0
+458,2024,Mechanical,8.44,TCS,37.96,Off-Campus,False,"Excel, Java",0
+459,2023,ECE,7.19,Wipro,28.01,Off-Campus,True,"AWS, ML, Communication, Power BI, Excel",0
+460,2023,Civil,8.54,TCS,27.14,On-Campus,True,"Python, AWS, Power BI, ML, React",2
+461,2022,CSE,6.23,Wipro,6.07,On-Campus,True,"AWS, React, Java",0
+462,2021,EEE,7.1,Deloitte,23.46,On-Campus,True,"SQL, Communication",0
+463,2022,Civil,7.89,Infosys,9.28,Off-Campus,True,"Communication, Excel, DSA, AWS",0
+464,2021,IT,8.77,Deloitte,31.89,Off-Campus,True,"React, SQL, Python, DSA, AWS",2
+465,2024,EEE,7.12,Deloitte,23.22,Off-Campus,False,"Java, ML",0
+466,2023,EEE,8.19,Infosys,29.69,On-Campus,True,"DSA, Java, Excel, ML",0
+467,2024,Mechanical,9.1,TCS,5.1,Off-Campus,True,"ML, AWS, React, Python, DSA",0
+468,2021,CSE,8.16,Accenture,6.76,Off-Campus,True,"DSA, Python",0
+469,2021,CSE,6.82,TCS,31.08,Off-Campus,True,"AWS, Excel, Java, Power BI",0
+470,2024,IT,6.09,Wipro,6.28,On-Campus,True,"Python, React, AWS, Power BI, SQL",0
+471,2021,IT,9.05,Microsoft,6.24,Off-Campus,True,"React, Communication, Excel",0
+472,2024,EEE,6.07,Wipro,3.97,On-Campus,True,"Python, React, Communication, Java, Excel",0
+473,2023,ECE,9.06,Microsoft,40.33,Off-Campus,True,"AWS, ML, DSA, Excel, Java",0
+474,2024,Mechanical,7.85,Deloitte,31.89,On-Campus,True,"SQL, AWS, Power BI",0
+475,2023,Mechanical,9.29,Infosys,17.1,On-Campus,False,"AWS, Excel, Power BI, SQL",0
+476,2024,EEE,8.8,Deloitte,14.92,On-Campus,False,"Excel, AWS, React, Communication, Power BI",0
+477,2021,Civil,9.49,Google,16.96,Off-Campus,True,"Communication, Power BI",0
+478,2024,ECE,7.23,TCS,33.32,Off-Campus,False,"Communication, React, Python, ML",2
+479,2021,EEE,8.69,Microsoft,28.96,On-Campus,True,"Java, Python, React, ML",0
+480,2024,ECE,7.41,Wipro,10.63,On-Campus,True,"AWS, React, Python, Communication, SQL",0
+481,2024,ECE,7.68,Infosys,10.2,Off-Campus,True,"DSA, Java, ML, Excel",0
+482,2022,ECE,8.2,Microsoft,7.29,Off-Campus,True,"Excel, Python",2
+483,2021,EEE,9.06,Wipro,28.92,On-Campus,False,"AWS, Communication, Java, Python, DSA",0
+484,2022,Mechanical,9.44,TCS,32.93,Off-Campus,True,"Java, Power BI",0
+485,2021,Mechanical,8.69,Deloitte,13.7,Off-Campus,True,"Power BI, Java, Communication, React",0
+486,2022,ECE,7.46,TCS,4.31,Off-Campus,True,"Java, React",0
+487,2023,Civil,7.47,Amazon,6.66,Off-Campus,True,"ML, Python, Power BI",0
+488,2024,CSE,8.58,Google,40.76,On-Campus,True,"DSA, ML",0
+489,2021,EEE,6.84,Amazon,14.87,Off-Campus,True,"AWS, Excel, Python, Power BI, SQL",0
+490,2021,CSE,6.39,Infosys,33.12,Off-Campus,True,"Power BI, Excel, React",2
+491,2024,Civil,7.24,Microsoft,27.55,On-Campus,False,"Excel, Python",0
+492,2021,EEE,7.01,Infosys,18.2,On-Campus,False,"Excel, AWS",0
+493,2021,ECE,7.04,Deloitte,11.42,Off-Campus,True,"Excel, Python, React",0
+494,2022,Mechanical,6.82,Wipro,8.17,Off-Campus,False,"SQL, Python",0
+495,2021,CSE,6.15,TCS,27.18,Off-Campus,True,"Excel, DSA, ML, Python, SQL",0
+496,2023,IT,6.06,Amazon,33.32,Off-Campus,True,"AWS, Power BI, DSA",0
+497,2023,IT,9.46,Accenture,28.29,On-Campus,True,"Communication, Power BI, SQL, React",0
+498,2024,Civil,7.5,Amazon,23.92,On-Campus,True,"React, Java, SQL, ML, Excel",1
+499,2021,ECE,7.35,Deloitte,5.12,On-Campus,False,"DSA, Java, SQL, React, AWS",2
+500,2024,CSE,8.38,Amazon,40.79,Off-Campus,True,"SQL, Power BI, Excel, DSA, Communication",0
