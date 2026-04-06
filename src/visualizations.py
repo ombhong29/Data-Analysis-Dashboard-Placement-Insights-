@@ -47,25 +47,33 @@ def plot_skill_demand(skill_df):
     plt.tight_layout()
     return fig
 
-
-# 🔹 ADD THIS FUNCTION
 def plot_package_distribution(df):
     fig, ax = plt.subplots(figsize=(8,4))
-    sns.histplot(df['package'], bins=10, kde=True, ax=ax)
-    ax.set_title('Package Distribution')
-    ax.set_xlabel('Package (LPA)')
+
+    # find package column automatically
+    pkg_col = [c for c in df.columns if "package" in c.lower()][0]
+
+    sns.histplot(df[pkg_col], bins=10, kde=True, ax=ax)
+
+    ax.set_title("Package Distribution")
+    ax.set_xlabel("Package (LPA)")
     plt.tight_layout()
     return fig
 
 
-# 🔹 ADD THIS FUNCTION
 def plot_cgpa_vs_package(df):
     fig, ax = plt.subplots(figsize=(8,4))
-    sns.scatterplot(data=df,
-                    x='cgpa',
-                    y='package',
-                    hue='branch',
-                    ax=ax)
-    ax.set_title('CGPA vs Package')
+
+    pkg_col = [c for c in df.columns if "package" in c.lower()][0]
+
+    sns.scatterplot(
+        data=df,
+        x="cgpa",
+        y=pkg_col,
+        hue="branch",
+        ax=ax
+    )
+
+    ax.set_title("CGPA vs Package")
     plt.tight_layout()
     return fig
