@@ -128,6 +128,7 @@
 #         'application/vnd.ms-excel')
 
 # dashboard/app.py
+from sklearn.linear_model import LogisticRegression
 import os
 import sys
 import streamlit as st
@@ -220,30 +221,77 @@ with st.expander('View raw data'):
 # ------------------------------
 # Placement predictor
 # ------------------------------
-@st.cache_resource
-def train_model(df):
-    feats = ['cgpa', 'backlogs']
-    df_ml = df.dropna(subset=feats + ['placed'])
-    df_ml = df_ml.copy()
-    df_ml['backlogs'] = df_ml['backlogs'].astype(int)
-    X = df_ml[feats]
-    y = df_ml['placed'].astype(int)
-    model = RandomForestClassifier(n_estimators=100, random_state=42)
-    model.fit(X, y)
-    return model
+# @st.cache_resource
+# def train_model(df):
+#     feats = ['cgpa', 'backlogs']
+#     df_ml = df.dropna(subset=feats + ['placed'])
+#     df_ml = df_ml.copy()
+#     df_ml['backlogs'] = df_ml['backlogs'].astype(int)
+#     X = df_ml[feats]
+#     y = df_ml['placed'].astype(int)
+#     model = RandomForestClassifier(n_estimators=100, random_state=42)
+#     model.fit(X, y)
+#     return model
 
-model = train_model(df)
+# model = train_model(df)
+
+# with st.sidebar:
+#     st.divider()
+#     st.subheader('Placement predictor')
+#     cgpa_in = st.slider('Your CGPA', 6.0, 10.0, 7.5, 0.1)
+#     back_in = st.number_input('Backlogs', 0, 5, 0)
+#     prob = model.predict_proba([[cgpa_in, back_in]])[0][1]
+#     pct = round(prob * 100, 1)
+#     color = 'green' if pct >= 70 else 'orange' if pct >= 50 else 'red'
+#     st.markdown(f'Placement chance: **:{color}[{pct}%]**')
 
 with st.sidebar:
     st.divider()
     st.subheader('Placement predictor')
-    cgpa_in = st.slider('Your CGPA', 6.0, 10.0, 7.5, 0.1)
-    back_in = st.number_input('Backlogs', 0, 5, 0)
-    prob = model.predict_proba([[cgpa_in, back_in]])[0][1]
-    pct = round(prob * 100, 1)
-    color = 'green' if pct >= 70 else 'orange' if pct >= 50 else 'red'
-    st.markdown(f'Placement chance: **:{color}[{pct}%]**')
 
+    cgpa_in = st.slider(
+        'Your CGPA',
+        min_value=6.0,
+        max_value=10.0,
+        value=7.5,
+        step=0.1
+    )
+
+    back_in = st.number_input(
+        'Backlogs',
+        min_value=0,
+        max_value=5,
+        value=0,
+        step=1
+    )
+
+    # Rule-based prediction
+    if cgpa_in >= 8.5 and back_in == 0:
+        pct = 90
+
+    elif cgpa_in >= 7.5 and back_in <= 1:
+        pct = 75
+
+    elif cgpa_in >= 6.5 and back_in <= 2:
+        pct = 55
+
+    elif cgpa_in >= 6.0 and back_in <= 3:
+        pct = 35
+
+    else:
+        pct = 15
+
+    # Color logic
+    if pct >= 70:
+        color = 'green'
+    elif pct >= 50:
+        color = 'orange'
+    else:
+        color = 'red'
+
+    st.markdown(
+        f'Placement chance: **:{color}[{pct}%]**'
+    )
 # ------------------------------
 # Export reports
 # ------------------------------
